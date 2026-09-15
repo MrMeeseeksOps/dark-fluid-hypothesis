@@ -1,7 +1,29 @@
 # Experiment 001 — Harmonic oscillator
 
-**Status:** build guide only. `run.py` is intentionally unimplemented.
-Euler and classical RK4 are available in `darkfluid.integrators`.
+**Status:** implemented and run. See [measured results](record.md) and
+[retained summary metadata](measurements.json). Full generated artifacts are local.
+
+## Run it
+
+From the repository root, with the virtual environment activated:
+
+```sh
+python -m pip install -e '.[dev,plots]'
+python experiments/001_harmonic_oscillator/run.py --method rk4 --periods 1 --steps-per-period 100
+python experiments/001_harmonic_oscillator/run.py --method euler --periods 100 --steps-per-period 200
+```
+
+Use `--help` for all options, including `--mass`, `--spring-constant`,
+`--initial-position`, `--initial-velocity`, and `--output-dir`.
+Each invocation prints its unique output directory containing `trajectory.csv`,
+`summary.json`, and `diagnostics.png`. CSV errors are signed; summary maxima
+are absolute. Undefined diagnostics are empty CSV fields and JSON `null`.
+Phase is omitted for the zero state or sampling with `omega*dt >= pi`;
+coarse, unstable integrations should not be interpreted as reliable phase estimates.
+Zero-energy runs plot absolute energy error. Core model and diagnostics live in
+`darkfluid.oscillator` and do not depend on plotting.
+
+The checklist below documents the implemented experiment specification.
 
 ## Question
 
@@ -131,6 +153,4 @@ comparisons and convergence measurements are recorded, and figures agree with
 the quantitative diagnostics. Explain any failed checks before using the solver
 for later experiments. A plausible-looking orbit alone is insufficient.
 
-Results and conclusions are **pending**. Use the
-[experiment record template](../../docs/templates/experiment-record.md) to record
-them after implementation and validation.
+Results and conclusions are recorded in [record.md](record.md).

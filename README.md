@@ -5,10 +5,10 @@ vorticity in a relativistic fluid can contribute to accelerated cosmological
 expansion. The hypothesis is unverified; the research plan prioritizes attempts
 to falsify it.
 
-**Status:** forward Euler and classical RK4 one-step integrators are implemented
-with analytical unit checks. The first experiment has
-a build guide but no runner; there are no completed experiments or scientific
-results yet.
+**Status:** Euler and classical RK4 integrators and the harmonic oscillator
+experiment are implemented and analytically checked. The first experiment includes
+CSV/JSON output, diagnostic figures, and measured convergence results. See the
+[experiment record](experiments/001_harmonic_oscillator/record.md).
 
 ## Getting started
 
@@ -25,7 +25,8 @@ python -m ruff format --check .
 
 On Windows, activate with `.venv\Scripts\Activate.ps1` in PowerShell.
 The import name is `darkfluid`; the distribution name is
-`dark-fluid-hypothesis`. There are currently no runtime dependencies or CLI.
+`dark-fluid-hypothesis`. The core library has no runtime dependencies. Install `.[plots]` to run the
+oscillator experiment and generate figures.
 
 ## Repository guide
 
@@ -40,7 +41,7 @@ The import name is `darkfluid`; the distribution name is
 | [`docs/templates/`](docs/templates/) | Research record templates |
 | [`docs/math-notes/`](docs/math-notes/) | Mathematics study guide |
 | [`docs/derivations/`](docs/derivations/) | Derivation conventions |
-| [`experiments/`](experiments/) | Existing experiment placeholders |
+| [`experiments/`](experiments/) | Experiment runners and research records |
 | [`notebooks/`](notebooks/) | Future exploratory analysis |
 
 The architecture in the research plan is a target, not a list of implemented

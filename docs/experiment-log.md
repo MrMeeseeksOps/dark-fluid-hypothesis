@@ -1,10 +1,12 @@
 # Experiment log
 
-No runs or scientific results have been recorded.
+Experiment 001 has local numerical validation runs dated 2026-09-15.
+Curated measurements are retained in the repository; full artifact archival is pending.
+No results testing the dark-fluid hypothesis have been recorded.
 
 | ID | Topic | Status | Record |
 | --- | --- | --- | --- |
-| 001 | Harmonic oscillator | Build guide ready; runner not implemented or run | [Build guide](../experiments/001_harmonic_oscillator/) |
+| 001 | Harmonic oscillator | Implemented and numerically validated; full artifacts local | [Record](../experiments/001_harmonic_oscillator/record.md) |
 | 002 | Orbital dynamics | Planned | — |
 | 003 | Axial stretch | Planned | — |
 | 004 | Relativistic kinematics | Planned | — |

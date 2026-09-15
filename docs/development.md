@@ -11,6 +11,10 @@ Euler and classical RK4 expose `euler_step(f, t, y, dt)` and
 `rk4_step(f, t, y, dt)` from `darkfluid.integrators`. Both operate on finite real
 state sequences and return tuples; callers own the simulation loop and storage.
 
+`darkfluid.oscillator` provides the undamped oscillator model, fixed-step
+trajectory loop, and analytical diagnostics. The experiment runner handles files
+and optional Matplotlib figures (`.[plots]`).
+
 The planned mechanics, fluids, relativity, and cosmology packages will be added
 when their interfaces and validation cases are defined. Empty solver modules
 do not constitute an implemented API.

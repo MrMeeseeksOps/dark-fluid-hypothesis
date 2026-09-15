@@ -1,0 +1,552 @@
+[
+  {
+    "created_utc": "2026-09-15T23:12:03.301965+00:00",
+    "command": [
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/.venv/bin/python",
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/experiments/001_harmonic_oscillator/run.py",
+      "--method",
+      "euler",
+      "--periods",
+      "1",
+      "--steps-per-period",
+      "100"
+    ],
+    "parameters": {
+      "method": "euler",
+      "mass": 1.0,
+      "spring_constant": 1.0,
+      "initial_position": 1.0,
+      "initial_velocity": 0.0,
+      "periods": 1,
+      "steps_per_period": 100
+    },
+    "units": {
+      "mass": "kg",
+      "length": "m",
+      "time": "s",
+      "spring_constant": "N/m"
+    },
+    "dt": 0.06283185307179587,
+    "final_time": 6.283185307179586,
+    "steps": 100,
+    "metrics": {
+      "max_absolute_position_error": 0.21770684198423074,
+      "max_absolute_velocity_error": 0.16497598695381765,
+      "final_combined_error": 0.21793845064445141,
+      "max_absolute_energy_error": 0.2414554261188827,
+      "max_absolute_relative_energy_error": 0.4829108522377654,
+      "final_relative_energy_error": 0.4829108522377654,
+      "max_absolute_phase_error": 0.008248810247433624,
+      "final_phase_error": -0.008248810247433624,
+      "phase_resolved": true
+    },
+    "environment": {
+      "python": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "pip_freeze": "build==1.6.1\ncontourpy==1.4.0\ncycler==0.12.1\n-e git+https://github.com/MrMeeseeksOps/dark-fluid-hypothesis.git@bf0511268612d43261a0d2eb8c3444bbc334ed5c#egg=dark_fluid_hypothesis\nfonttools==4.65.0\nkiwisolver==1.5.1\nmatplotlib==3.11.2\nnumpy==2.5.3\npackaging==26.3\npillow==12.3.0\npyparsing==3.3.2\npyproject_hooks==1.3.0\npython-dateutil==2.9.0.post0\nruff==0.16.7\nsix==1.17.0",
+      "git_revision": "bf0511268612d43261a0d2eb8c3444bbc334ed5c",
+      "git_dirty": true
+    },
+    "sha256": {
+      "trajectory.csv": "28a8cd9f9b4fa81983b9e7824fb9864eabaa6251064a956817e363e69d5ac283",
+      "diagnostics.png": "7a68c8f286406938c61a66f37d883691b577d1d1962d61be0e15cf6040c9c0a7"
+    },
+    "observed_order": null,
+    "artifact_directory": "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/outputs/001_harmonic_oscillator/20260915T231203-euler-49abdc1f70"
+  },
+  {
+    "created_utc": "2026-09-15T23:12:15.149224+00:00",
+    "command": [
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/.venv/bin/python",
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/experiments/001_harmonic_oscillator/run.py",
+      "--method",
+      "euler",
+      "--periods",
+      "1",
+      "--steps-per-period",
+      "200"
+    ],
+    "parameters": {
+      "method": "euler",
+      "mass": 1.0,
+      "spring_constant": 1.0,
+      "initial_position": 1.0,
+      "initial_velocity": 0.0,
+      "periods": 1,
+      "steps_per_period": 200
+    },
+    "units": {
+      "mass": "kg",
+      "length": "m",
+      "time": "s",
+      "spring_constant": "N/m"
+    },
+    "dt": 0.031415926535897934,
+    "final_time": 6.283185307179586,
+    "steps": 200,
+    "metrics": {
+      "max_absolute_position_error": 0.10367468781049172,
+      "max_absolute_velocity_error": 0.07895722743217604,
+      "final_combined_error": 0.10369975644829793,
+      "max_absolute_energy_error": 0.10905150755420989,
+      "max_absolute_relative_energy_error": 0.21810301510841978,
+      "final_relative_energy_error": 0.21810301510841978,
+      "max_absolute_phase_error": 0.0020658618955717856,
+      "final_phase_error": -0.0020658618955717856,
+      "phase_resolved": true
+    },
+    "environment": {
+      "python": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "pip_freeze": "build==1.6.1\ncontourpy==1.4.0\ncycler==0.12.1\n-e git+https://github.com/MrMeeseeksOps/dark-fluid-hypothesis.git@bf0511268612d43261a0d2eb8c3444bbc334ed5c#egg=dark_fluid_hypothesis\nfonttools==4.65.0\nkiwisolver==1.5.1\nmatplotlib==3.11.2\nnumpy==2.5.3\npackaging==26.3\npillow==12.3.0\npyparsing==3.3.2\npyproject_hooks==1.3.0\npython-dateutil==2.9.0.post0\nruff==0.16.7\nsix==1.17.0",
+      "git_revision": "bf0511268612d43261a0d2eb8c3444bbc334ed5c",
+      "git_dirty": true
+    },
+    "sha256": {
+      "trajectory.csv": "e45bee6db5449f75e4218d56a94185b37f27843b09d30fef88512ef83658912c",
+      "diagnostics.png": "f87b674923c6d10726d0c152f5063f28f3e2911369b0deb900b9e762ebe49d4d"
+    },
+    "observed_order": 1.0715082462237457,
+    "artifact_directory": "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/outputs/001_harmonic_oscillator/20260915T231215-euler-4112ef62ef"
+  },
+  {
+    "created_utc": "2026-09-15T23:12:23.839684+00:00",
+    "command": [
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/.venv/bin/python",
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/experiments/001_harmonic_oscillator/run.py",
+      "--method",
+      "euler",
+      "--periods",
+      "1",
+      "--steps-per-period",
+      "400"
+    ],
+    "parameters": {
+      "method": "euler",
+      "mass": 1.0,
+      "spring_constant": 1.0,
+      "initial_position": 1.0,
+      "initial_velocity": 0.0,
+      "periods": 1,
+      "steps_per_period": 400
+    },
+    "units": {
+      "mass": "kg",
+      "length": "m",
+      "time": "s",
+      "spring_constant": "N/m"
+    },
+    "dt": 0.015707963267948967,
+    "final_time": 6.283185307179586,
+    "steps": 400,
+    "metrics": {
+      "max_absolute_position_error": 0.05057937893526265,
+      "max_absolute_velocity_error": 0.03863410101551257,
+      "final_combined_error": 0.050582291730712915,
+      "max_absolute_energy_error": 0.051858663053628073,
+      "max_absolute_relative_energy_error": 0.10371732610725615,
+      "final_relative_energy_error": 0.10371732610725615,
+      "max_absolute_phase_error": 0.0005166947865591354,
+      "final_phase_error": -0.0005166947865591354,
+      "phase_resolved": true
+    },
+    "environment": {
+      "python": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "pip_freeze": "build==1.6.1\ncontourpy==1.4.0\ncycler==0.12.1\n-e git+https://github.com/MrMeeseeksOps/dark-fluid-hypothesis.git@bf0511268612d43261a0d2eb8c3444bbc334ed5c#egg=dark_fluid_hypothesis\nfonttools==4.65.0\nkiwisolver==1.5.1\nmatplotlib==3.11.2\nnumpy==2.5.3\npackaging==26.3\npillow==12.3.0\npyparsing==3.3.2\npyproject_hooks==1.3.0\npython-dateutil==2.9.0.post0\nruff==0.16.7\nsix==1.17.0",
+      "git_revision": "bf0511268612d43261a0d2eb8c3444bbc334ed5c",
+      "git_dirty": true
+    },
+    "sha256": {
+      "trajectory.csv": "4864875ecd5be06a853b8014d4747ca63e89c4a76d6cf520d74331c788e9ca60",
+      "diagnostics.png": "8744ecbeebf1bd45542a9dd3d2f225945aafdf27983527eaad3db9162a6e1c20"
+    },
+    "observed_order": 1.0357081980622393,
+    "artifact_directory": "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/outputs/001_harmonic_oscillator/20260915T231223-euler-022a48b119"
+  },
+  {
+    "created_utc": "2026-09-15T23:12:32.563171+00:00",
+    "command": [
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/.venv/bin/python",
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/experiments/001_harmonic_oscillator/run.py",
+      "--method",
+      "rk4",
+      "--periods",
+      "1",
+      "--steps-per-period",
+      "100"
+    ],
+    "parameters": {
+      "method": "rk4",
+      "mass": 1.0,
+      "spring_constant": 1.0,
+      "initial_position": 1.0,
+      "initial_velocity": 0.0,
+      "periods": 1,
+      "steps_per_period": 100
+    },
+    "units": {
+      "mass": "kg",
+      "length": "m",
+      "time": "s",
+      "spring_constant": "N/m"
+    },
+    "dt": 0.06283185307179587,
+    "final_time": 6.283185307179586,
+    "steps": 100,
+    "metrics": {
+      "max_absolute_position_error": 6.31937957989992e-07,
+      "max_absolute_velocity_error": 8.149021639751589e-07,
+      "final_combined_error": 8.160205147962906e-07,
+      "max_absolute_energy_error": 4.27073211795026e-08,
+      "max_absolute_relative_energy_error": 8.54146423590052e-08,
+      "final_relative_energy_error": -8.54146423590052e-08,
+      "max_absolute_phase_error": 8.149022070469414e-07,
+      "final_phase_error": -8.149022070469414e-07,
+      "phase_resolved": true
+    },
+    "environment": {
+      "python": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "pip_freeze": "build==1.6.1\ncontourpy==1.4.0\ncycler==0.12.1\n-e git+https://github.com/MrMeeseeksOps/dark-fluid-hypothesis.git@bf0511268612d43261a0d2eb8c3444bbc334ed5c#egg=dark_fluid_hypothesis\nfonttools==4.65.0\nkiwisolver==1.5.1\nmatplotlib==3.11.2\nnumpy==2.5.3\npackaging==26.3\npillow==12.3.0\npyparsing==3.3.2\npyproject_hooks==1.3.0\npython-dateutil==2.9.0.post0\nruff==0.16.7\nsix==1.17.0",
+      "git_revision": "bf0511268612d43261a0d2eb8c3444bbc334ed5c",
+      "git_dirty": true
+    },
+    "sha256": {
+      "trajectory.csv": "00d996d31a9c03e940426eeec94b546f93cd49d8d9968ec81a8383580bb5526c",
+      "diagnostics.png": "6790fdf95c292fdc81de1961e0462093b1a9e354a2ea09f2a837f7c3861c8271"
+    },
+    "observed_order": null,
+    "artifact_directory": "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/outputs/001_harmonic_oscillator/20260915T231232-rk4-f0f39fe964"
+  },
+  {
+    "created_utc": "2026-09-15T23:12:41.385763+00:00",
+    "command": [
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/.venv/bin/python",
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/experiments/001_harmonic_oscillator/run.py",
+      "--method",
+      "rk4",
+      "--periods",
+      "1",
+      "--steps-per-period",
+      "200"
+    ],
+    "parameters": {
+      "method": "rk4",
+      "mass": 1.0,
+      "spring_constant": 1.0,
+      "initial_position": 1.0,
+      "initial_velocity": 0.0,
+      "periods": 1,
+      "steps_per_period": 200
+    },
+    "units": {
+      "mass": "kg",
+      "length": "m",
+      "time": "s",
+      "spring_constant": "N/m"
+    },
+    "dt": 0.031415926535897934,
+    "final_time": 6.283185307179586,
+    "steps": 200,
+    "metrics": {
+      "max_absolute_position_error": 3.928819508614012e-08,
+      "max_absolute_velocity_error": 5.098530368523285e-08,
+      "final_combined_error": 5.10027811191878e-08,
+      "max_absolute_energy_error": 1.335097976618016e-09,
+      "max_absolute_relative_energy_error": 2.670195953236032e-09,
+      "final_relative_energy_error": -2.670195953236032e-09,
+      "max_absolute_phase_error": 5.0985333288622314e-08,
+      "final_phase_error": -5.0985333288622314e-08,
+      "phase_resolved": true
+    },
+    "environment": {
+      "python": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "pip_freeze": "build==1.6.1\ncontourpy==1.4.0\ncycler==0.12.1\n-e git+https://github.com/MrMeeseeksOps/dark-fluid-hypothesis.git@bf0511268612d43261a0d2eb8c3444bbc334ed5c#egg=dark_fluid_hypothesis\nfonttools==4.65.0\nkiwisolver==1.5.1\nmatplotlib==3.11.2\nnumpy==2.5.3\npackaging==26.3\npillow==12.3.0\npyparsing==3.3.2\npyproject_hooks==1.3.0\npython-dateutil==2.9.0.post0\nruff==0.16.7\nsix==1.17.0",
+      "git_revision": "bf0511268612d43261a0d2eb8c3444bbc334ed5c",
+      "git_dirty": true
+    },
+    "sha256": {
+      "trajectory.csv": "1916d0c9c8347bdb6af596b8e4ffc50b4510a84f23ae3730750d6a7c4acd35d0",
+      "diagnostics.png": "82f5d9c53522ba8a0afa845312b1af3283ef5a8fada56fe219ce9b55f2a4a89c"
+    },
+    "observed_order": 3.999957599342397,
+    "artifact_directory": "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/outputs/001_harmonic_oscillator/20260915T231241-rk4-4617b89b24"
+  },
+  {
+    "created_utc": "2026-09-15T23:12:50.216284+00:00",
+    "command": [
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/.venv/bin/python",
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/experiments/001_harmonic_oscillator/run.py",
+      "--method",
+      "rk4",
+      "--periods",
+      "1",
+      "--steps-per-period",
+      "400"
+    ],
+    "parameters": {
+      "method": "rk4",
+      "mass": 1.0,
+      "spring_constant": 1.0,
+      "initial_position": 1.0,
+      "initial_velocity": 0.0,
+      "periods": 1,
+      "steps_per_period": 400
+    },
+    "units": {
+      "mass": "kg",
+      "length": "m",
+      "time": "s",
+      "spring_constant": "N/m"
+    },
+    "dt": 0.015707963267948967,
+    "final_time": 6.283185307179586,
+    "steps": 400,
+    "metrics": {
+      "max_absolute_position_error": 2.4490143524236174e-09,
+      "max_absolute_velocity_error": 3.1874242079202257e-09,
+      "final_combined_error": 3.1876973021786684e-09,
+      "max_absolute_energy_error": 4.1725400912184796e-11,
+      "max_absolute_relative_energy_error": 8.345080182436959e-11,
+      "final_relative_energy_error": -8.345080182436959e-11,
+      "max_absolute_phase_error": 3.1874538564125032e-09,
+      "final_phase_error": -3.1874538564125032e-09,
+      "phase_resolved": true
+    },
+    "environment": {
+      "python": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "pip_freeze": "build==1.6.1\ncontourpy==1.4.0\ncycler==0.12.1\n-e git+https://github.com/MrMeeseeksOps/dark-fluid-hypothesis.git@bf0511268612d43261a0d2eb8c3444bbc334ed5c#egg=dark_fluid_hypothesis\nfonttools==4.65.0\nkiwisolver==1.5.1\nmatplotlib==3.11.2\nnumpy==2.5.3\npackaging==26.3\npillow==12.3.0\npyparsing==3.3.2\npyproject_hooks==1.3.0\npython-dateutil==2.9.0.post0\nruff==0.16.7\nsix==1.17.0",
+      "git_revision": "bf0511268612d43261a0d2eb8c3444bbc334ed5c",
+      "git_dirty": true
+    },
+    "sha256": {
+      "trajectory.csv": "ab7113d77ffed8fb090dfaf9d0979d06d24b0acba60fb818b8ea1bcd4ff11d1f",
+      "diagnostics.png": "3d18ed035466b970322185120036d435be287b392d2f1c2124fae9d891ba8dfa"
+    },
+    "observed_order": 3.999989372321924,
+    "artifact_directory": "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/outputs/001_harmonic_oscillator/20260915T231250-rk4-b325c1e3a8"
+  },
+  {
+    "created_utc": "2026-09-15T23:12:59.082205+00:00",
+    "command": [
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/.venv/bin/python",
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/experiments/001_harmonic_oscillator/run.py",
+      "--method",
+      "euler",
+      "--periods",
+      "100",
+      "--steps-per-period",
+      "100"
+    ],
+    "parameters": {
+      "method": "euler",
+      "mass": 1.0,
+      "spring_constant": 1.0,
+      "initial_position": 1.0,
+      "initial_velocity": 0.0,
+      "periods": 100,
+      "steps_per_period": 100
+    },
+    "units": {
+      "mass": "kg",
+      "length": "m",
+      "time": "s",
+      "spring_constant": "N/m"
+    },
+    "dt": 0.06283185307179587,
+    "final_time": 628.3185307179587,
+    "steps": 10000,
+    "metrics": {
+      "max_absolute_position_error": 334369957.89269656,
+      "max_absolute_velocity_error": 351291360.6157567,
+      "final_combined_error": 359544104.10008585,
+      "max_absolute_energy_error": 6.463598164056926e+16,
+      "max_absolute_relative_energy_error": 1.2927196328113853e+17,
+      "final_relative_energy_error": 1.2927196328113853e+17,
+      "max_absolute_phase_error": 0.8248810247021083,
+      "final_phase_error": -0.8248810247021083,
+      "phase_resolved": true
+    },
+    "environment": {
+      "python": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "pip_freeze": "build==1.6.1\ncontourpy==1.4.0\ncycler==0.12.1\n-e git+https://github.com/MrMeeseeksOps/dark-fluid-hypothesis.git@bf0511268612d43261a0d2eb8c3444bbc334ed5c#egg=dark_fluid_hypothesis\nfonttools==4.65.0\nkiwisolver==1.5.1\nmatplotlib==3.11.2\nnumpy==2.5.3\npackaging==26.3\npillow==12.3.0\npyparsing==3.3.2\npyproject_hooks==1.3.0\npython-dateutil==2.9.0.post0\nruff==0.16.7\nsix==1.17.0",
+      "git_revision": "bf0511268612d43261a0d2eb8c3444bbc334ed5c",
+      "git_dirty": true
+    },
+    "sha256": {
+      "trajectory.csv": "c88a6eee5c785f3ce5b025985d3ac2b56717a2832ec425b7853617a829483816",
+      "diagnostics.png": "fd23a596e766ccffede867e49c8b1f1bb40a6c1f2f37440d56aa9724ae9746a6"
+    },
+    "observed_order": null,
+    "artifact_directory": "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/outputs/001_harmonic_oscillator/20260915T231259-euler-aa764553e8"
+  },
+  {
+    "created_utc": "2026-09-15T23:13:08.101253+00:00",
+    "command": [
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/.venv/bin/python",
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/experiments/001_harmonic_oscillator/run.py",
+      "--method",
+      "euler",
+      "--periods",
+      "100",
+      "--steps-per-period",
+      "200"
+    ],
+    "parameters": {
+      "method": "euler",
+      "mass": 1.0,
+      "spring_constant": 1.0,
+      "initial_position": 1.0,
+      "initial_velocity": 0.0,
+      "periods": 100,
+      "steps_per_period": 200
+    },
+    "units": {
+      "mass": "kg",
+      "length": "m",
+      "time": "s",
+      "spring_constant": "N/m"
+    },
+    "dt": 0.031415926535897934,
+    "final_time": 628.3185307179587,
+    "steps": 20000,
+    "metrics": {
+      "max_absolute_position_error": 18829.716813738956,
+      "max_absolute_velocity_error": 18833.290320588196,
+      "final_combined_error": 19238.83703400608,
+      "max_absolute_energy_error": 185085254.92733568,
+      "max_absolute_relative_energy_error": 370170509.85467136,
+      "final_relative_energy_error": 370170509.85467136,
+      "max_absolute_phase_error": 0.20658618950142227,
+      "final_phase_error": -0.20658618950142227,
+      "phase_resolved": true
+    },
+    "environment": {
+      "python": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "pip_freeze": "build==1.6.1\ncontourpy==1.4.0\ncycler==0.12.1\n-e git+https://github.com/MrMeeseeksOps/dark-fluid-hypothesis.git@bf0511268612d43261a0d2eb8c3444bbc334ed5c#egg=dark_fluid_hypothesis\nfonttools==4.65.0\nkiwisolver==1.5.1\nmatplotlib==3.11.2\nnumpy==2.5.3\npackaging==26.3\npillow==12.3.0\npyparsing==3.3.2\npyproject_hooks==1.3.0\npython-dateutil==2.9.0.post0\nruff==0.16.7\nsix==1.17.0",
+      "git_revision": "bf0511268612d43261a0d2eb8c3444bbc334ed5c",
+      "git_dirty": true
+    },
+    "sha256": {
+      "trajectory.csv": "53d36521d622f9a2286f5a2e9d1a085869ed0225a849642a0483a6a7a65d0cc7",
+      "diagnostics.png": "ddf3159d0226357a151df91ae7c3a655daa922c7d06279dab9f3bc43de22c957"
+    },
+    "observed_order": null,
+    "artifact_directory": "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/outputs/001_harmonic_oscillator/20260915T231308-euler-deeca2bf36"
+  },
+  {
+    "created_utc": "2026-09-15T23:13:17.135350+00:00",
+    "command": [
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/.venv/bin/python",
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/experiments/001_harmonic_oscillator/run.py",
+      "--method",
+      "rk4",
+      "--periods",
+      "100",
+      "--steps-per-period",
+      "100"
+    ],
+    "parameters": {
+      "method": "rk4",
+      "mass": 1.0,
+      "spring_constant": 1.0,
+      "initial_position": 1.0,
+      "initial_velocity": 0.0,
+      "periods": 100,
+      "steps_per_period": 100
+    },
+    "units": {
+      "mass": "kg",
+      "length": "m",
+      "time": "s",
+      "spring_constant": "N/m"
+    },
+    "dt": 0.06283185307179587,
+    "final_time": 628.3185307179587,
+    "steps": 10000,
+    "metrics": {
+      "max_absolute_position_error": 8.140160609843017e-05,
+      "max_absolute_velocity_error": 8.148987181852554e-05,
+      "final_combined_error": 8.160187900246777e-05,
+      "max_absolute_energy_error": 4.270714054233071e-06,
+      "max_absolute_relative_energy_error": 8.541428108466143e-06,
+      "final_relative_energy_error": -8.541428108466143e-06,
+      "max_absolute_phase_error": 8.149021130066103e-05,
+      "final_phase_error": -8.149021130066103e-05,
+      "phase_resolved": true
+    },
+    "environment": {
+      "python": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "pip_freeze": "build==1.6.1\ncontourpy==1.4.0\ncycler==0.12.1\n-e git+https://github.com/MrMeeseeksOps/dark-fluid-hypothesis.git@bf0511268612d43261a0d2eb8c3444bbc334ed5c#egg=dark_fluid_hypothesis\nfonttools==4.65.0\nkiwisolver==1.5.1\nmatplotlib==3.11.2\nnumpy==2.5.3\npackaging==26.3\npillow==12.3.0\npyparsing==3.3.2\npyproject_hooks==1.3.0\npython-dateutil==2.9.0.post0\nruff==0.16.7\nsix==1.17.0",
+      "git_revision": "bf0511268612d43261a0d2eb8c3444bbc334ed5c",
+      "git_dirty": true
+    },
+    "sha256": {
+      "trajectory.csv": "c370c9782668d60a1a8cc0191876fd043c5077d6f6b2dc404354fd65838984b4",
+      "diagnostics.png": "7f32b7b05109a9c1a108569315cd5d65c35a1e12b68c5371bf0baf41b691071c"
+    },
+    "observed_order": null,
+    "artifact_directory": "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/outputs/001_harmonic_oscillator/20260915T231317-rk4-55f502303d"
+  },
+  {
+    "created_utc": "2026-09-15T23:13:26.319396+00:00",
+    "command": [
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/.venv/bin/python",
+      "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/experiments/001_harmonic_oscillator/run.py",
+      "--method",
+      "rk4",
+      "--periods",
+      "100",
+      "--steps-per-period",
+      "200"
+    ],
+    "parameters": {
+      "method": "rk4",
+      "mass": 1.0,
+      "spring_constant": 1.0,
+      "initial_position": 1.0,
+      "initial_velocity": 0.0,
+      "periods": 100,
+      "steps_per_period": 200
+    },
+    "units": {
+      "mass": "kg",
+      "length": "m",
+      "time": "s",
+      "spring_constant": "N/m"
+    },
+    "dt": 0.031415926535897934,
+    "final_time": 628.3185307179587,
+    "steps": 20000,
+    "metrics": {
+      "max_absolute_position_error": 5.087712412712997e-06,
+      "max_absolute_velocity_error": 5.098529693202374e-06,
+      "final_combined_error": 5.100277773610714e-06,
+      "max_absolute_energy_error": 1.3350978383952494e-07,
+      "max_absolute_relative_energy_error": 2.670195676790499e-07,
+      "final_relative_energy_error": -2.670195676790499e-07,
+      "max_absolute_phase_error": 5.0984207291548955e-06,
+      "final_phase_error": -5.0984207291548955e-06,
+      "phase_resolved": true
+    },
+    "environment": {
+      "python": "3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)]",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+      "pip_freeze": "build==1.6.1\ncontourpy==1.4.0\ncycler==0.12.1\n-e git+https://github.com/MrMeeseeksOps/dark-fluid-hypothesis.git@bf0511268612d43261a0d2eb8c3444bbc334ed5c#egg=dark_fluid_hypothesis\nfonttools==4.65.0\nkiwisolver==1.5.1\nmatplotlib==3.11.2\nnumpy==2.5.3\npackaging==26.3\npillow==12.3.0\npyparsing==3.3.2\npyproject_hooks==1.3.0\npython-dateutil==2.9.0.post0\nruff==0.16.7\nsix==1.17.0",
+      "git_revision": "bf0511268612d43261a0d2eb8c3444bbc334ed5c",
+      "git_dirty": true
+    },
+    "sha256": {
+      "trajectory.csv": "d2fb9da603db0fbb42eb26c4b5b393b71f6403b0a85e9afd4f6bd1bc063a1b20",
+      "diagnostics.png": "9af2b8aa19ccbdc92d585e8492708cf8dc48a8c310974d6e286497dd5cc83025"
+    },
+    "observed_order": null,
+    "artifact_directory": "/Users/hectorrodriguez/repos/MrMeeseeksOps/dark-fluid-hypothesis/outputs/001_harmonic_oscillator/20260915T231326-rk4-24897b0ab6"
+  }
+]
