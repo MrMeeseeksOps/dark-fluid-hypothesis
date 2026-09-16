@@ -5,10 +5,11 @@ vorticity in a relativistic fluid can contribute to accelerated cosmological
 expansion. The hypothesis is unverified; the research plan prioritizes attempts
 to falsify it.
 
-**Status:** Euler and classical RK4 integrators and the harmonic oscillator
-experiment are implemented and analytically checked. The first experiment includes
-CSV/JSON output, diagnostic figures, and measured convergence results. See the
-[experiment record](experiments/001_harmonic_oscillator/record.md).
+**Status:** Euler and classical RK4 are implemented and checked against analytical
+harmonic oscillator and Kepler orbit references. Both experiments include CSV/JSON
+output, diagnostic figures, and measured convergence results. See the
+[oscillator record](experiments/001_harmonic_oscillator/record.md) and
+[orbital dynamics record](experiments/002_orbital_dynamics/record.md).
 
 ## Getting started
 
@@ -26,7 +27,8 @@ python -m ruff format --check .
 On Windows, activate with `.venv\Scripts\Activate.ps1` in PowerShell.
 The import name is `darkfluid`; the distribution name is
 `dark-fluid-hypothesis`. The core library has no runtime dependencies. Install `.[plots]` to run the
-oscillator experiment and generate figures.
+experiment runners and generate figures. The orbital runner also supports
+`--no-plots` without optional dependencies.
 
 ## Repository guide
 

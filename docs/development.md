@@ -15,7 +15,11 @@ state sequences and return tuples; callers own the simulation loop and storage.
 trajectory loop, and analytical diagnostics. The experiment runner handles files
 and optional Matplotlib figures (`.[plots]`).
 
-The planned mechanics, fluids, relativity, and cosmology packages will be added
+`darkfluid.mechanics` provides planar Kepler dynamics, an independent elliptic
+reference, and specific energy/angular momentum diagnostics. Experiment 002
+owns parameter sweeps, artifact output, and optional plots.
+
+The planned fluids, relativity, and cosmology packages will be added
 when their interfaces and validation cases are defined. Empty solver modules
 do not constitute an implemented API.
 
