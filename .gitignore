@@ -1,0 +1,22 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Generated research artifacts (keep curated evidence elsewhere)
+outputs/
+
+# Machine-specific files and secrets
+.DS_Store
+.env
+.env.*
+!.env.example

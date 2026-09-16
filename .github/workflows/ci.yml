@@ -1,0 +1,35 @@
+name: Repository checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12", "3.13", "3.14"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install development tools
+        run: python -m pip install -e '.[dev]'
+      - name: Lint and format
+        run: |
+          python -m ruff check .
+          python -m ruff format --check .
+      - name: Check installed package
+        run: python -m unittest discover -s tests -v
+      - name: Build source distribution and wheel
+        run: python -m build
+      - name: Check wheel in a clean environment
+        run: |
+          python -m venv /tmp/darkfluid-wheel
+          /tmp/darkfluid-wheel/bin/python -m pip install dist/*.whl
+          /tmp/darkfluid-wheel/bin/python -m unittest discover -s tests -v
